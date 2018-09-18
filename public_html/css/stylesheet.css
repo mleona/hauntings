@@ -22,46 +22,21 @@ footer {
 	font-size: 14px;
 }
 
-.text-box {
-	background-color: #ECEDE9;
-	font-family: Palatino, "Palatino Linotype", sansserif;
-}
-
 .nav-button {
-    background-color: #92651E;
+    background-color: #96A495;
     float: right;
     border: none;
     color: #1B1916;
-    padding: 15px 32px;
+    padding: 15px 64px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 22px;
     font-family: Palatino, "Palatino Linotype", sansserif;
 }
 
 .nav-button:hover {
-    background-color: #D3A933;
-}
-
-.main {
-	background-color: #96A495;
-	padding-bottom: 8px;
-	padding-top: 8px;
-	padding-right: 8px;
-	padding-left: 8px;
-	margin-right: 64px;
-	margin-left: 64px;
-	margin-bottom: 64px;
-	margin-top: 128px;
-	height: 520px;
-}
-
-.main p {
-	background-color: #ECEDE9;
-	color: #1B1916;
-	font-family: Palatino, "Palatino Linotype", sansserif;
-	font-size: 18px;
+    background-color: #92651E;
 }
 
 #header-nav {
@@ -70,4 +45,58 @@ footer {
 	top: 0px;
 	left: 0px;
 	right: 0px;
+}
+
+#logo {
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+.main-text {
+	background-color: #ECEDE9;
+	color: #1B1916;
+	font-family: Palatino, "Palatino Linotype", sansserif;
+	font-size: 18px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #96A495;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    padding-bottom: .5vh;
+	padding-top: .5vh;
+	padding-right: .5vw;
+	padding-left: .5vw;
+}
+
+.main-img {
+	background-color: #96A495;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-right: 25vw;
+	margin-left: 25vw;
+	margin-bottom: 5vh;
+	margin-top: 16vh;
+	height: 50vh;
+}
+
+.main-img img {
+	height: 100%;
+	width: 100%;
+}
+
+.page-status {
+	color: #92651E;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Palatino, "Palatino Linotype", sansserif;
+   	position: relative;
+   	bottom: 12px;
+   	left: 5%;
 }
