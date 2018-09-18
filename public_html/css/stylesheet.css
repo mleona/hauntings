@@ -1,13 +1,73 @@
 /*
-Dark (text) - 302C29
-White (text background) - D1D1BC
-Light blue - A7C4BB
-Medium blue - 6C8C84 
-Dark blue - 466964
+White background - ECEDE9
+Gray - 96A495
+Orange - D3A933
+Brown - 92651E
+Black - 1B1916
 */
 
 body {
-	background-color: #D1D1BC;
-	color: #302c29;
+	background-color: #1B1916;
 }
 
+footer {
+	background-color: #ECEDE9;
+	color: #1B1916;
+	padding: 5px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	font-family: Times, "Times New Roman", sansserif;
+	font-size: 14px;
+}
+
+.text-box {
+	background-color: #ECEDE9;
+	font-family: Palatino, "Palatino Linotype", sansserif;
+}
+
+.nav-button {
+    background-color: #92651E;
+    float: right;
+    border: none;
+    color: #1B1916;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Palatino, "Palatino Linotype", sansserif;
+}
+
+.nav-button:hover {
+    background-color: #D3A933;
+}
+
+.main {
+	background-color: #96A495;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-right: 64px;
+	margin-left: 64px;
+	margin-bottom: 64px;
+	margin-top: 128px;
+	height: 520px;
+}
+
+.main p {
+	background-color: #ECEDE9;
+	color: #1B1916;
+	font-family: Palatino, "Palatino Linotype", sansserif;
+	font-size: 18px;
+}
+
+#header-nav {
+	background-color: #96A495;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
