@@ -5,18 +5,41 @@
 		<meta charset="utf-8">
 		<title>Hauntings at Simpson</title>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+		<style>
+			.login_button {
+			    background-color: #96A495;
+			    display: inline;
+			    border: none;
+			    width: 50%;
+			    height: 100%;
+			    float: right;
+			}
+
+			.login_button a {
+			    color: #1B1916;
+			    text-align: center;
+			    text-decoration: none;
+			    font-size: 125%;
+			    font-family: Palatino, "Palatino Linotype", sansserif;
+			}
+
+			.login_button:hover {
+			    background-color: #D3A933;
+			}
+		</style>
 	</head>
 
 	<body>
 		<header>
 			<nav id="header-nav">
 				<a href="index.html"><img src="img/new_logo.png" alt="Simpson Ghost Hunters" id="logo"></a>
-				<b class="page-status">Home</b>
 				<a href="about.html"><button class="nav-button"><b>About</b></button></a>
 				<a href="cowles_gym.html"><button class="nav-button"><b>Cowles Gym</b></button></a>
 				<a href="college_hall.html"><button class="nav-button"><b>College Hall</b></button></a>
 				<a href="millies.html"><button class="nav-button"><b>Millie's</b></button></a>
 				<a href="mary_berry.html"><button class="nav-button"><b>Mary Berry</b></button></a>
+				<button class="nav-button" id="button-current"><b>Home</b></button>
 			</nav>
 		</header>
 
@@ -24,10 +47,19 @@
 			<img src="img/placeholder.jpg">
 		</div>
 
+		<p class="img-text">
+			<i>A picture of a spooky ghost that PROBABLY has a skeleton in it.</i>
+		</p>
+
 		<p class="main-text">
-			Hello! Welcome to the website of the Simpson Ghost Hunters! We investigate anomalous activity reported on campus. We have discovered and documented the presence of several paranormal entities whose identities were determined by the history of the campus. Simply click one of the buttons in the navigation bar above to learn more about that particular anomaly.
+			Hello! We are the Simpson Ghost Hunters! Welcome to our website! We investigate reports of paranormal activity around campus. We have well documented the anomalous properties of these entities and uploaded them to this website. You can read more about this in the tabs above. You can click on the logo in the top left to go back to the home page.
 		</p>
 	    
+		<div style="background-color: #96A495; width: 10%; height: 4%; position: absolute; margin-bottom: 2%; border-style: solid; border-width: 5px; border-color: #92651E;">
+			<button class="login_button"><a href="signup.html"><b>Sign-Up</b></a></button>
+			<button class="login_button"><a href="login.html"><b>Login</b></a></button>
+		</div>
+
 		<footer>Copyright Simpson Ghost Hunters 2015 &#169;</footer>
 	</body>
 </html>
