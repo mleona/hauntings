@@ -1,0 +1,121 @@
+body {
+    background-color: #faf9f9;
+}
+
+header{
+    background-color: #dec0b2;
+    background-repeat: no-repeat;
+    color: #414c53;
+    font-family: Georgia, Palatino, serif;
+    font-size: 60px;
+    height: 75px;
+    text-align: center;
+    padding: 20px;
+}
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D8CFC6;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #111;
+}
+
+.otherimg{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+p{
+   font-family: arial, sans-serif;
+   color: #414c53;
+   line-height: 2;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    text-align: left;
+    color: #738D9C;
+}
+
+h2{
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    text-align: left;
+    color: #738D9C;
+}
+
+h3{
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    text-align: left;
+    color: #738D9C;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+footer{
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    text-align: left;
+    background-color: #dec0b2;
+    color: white;
+    padding: 10px;
+}
+
+div{
+    background-color: white;
+    height: 470px;
+    width: 1250px;
+
+}
+
+#softball {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+#softball td, #softball th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#softball tr:nth-child(even){background-color: #f2f2f2;}
+
+#softball th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+}
+
+.list{
+    
+}
+

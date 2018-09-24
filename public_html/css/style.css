@@ -1,17 +1,30 @@
-body {
-    background-color: #FDD7C7;
-    border-style: solid;
-    border-color: #FDFAF4;
-    border-width: 5px;
-    border-radius: 25px;
-    margin: 25px;
-    padding: 10px;
+<!--Hannah Broshar -->
+
+<!--Body and other style -->
+
+body{
+    background-color: lightyellow;
 }
 
-#title {
-    color: white;
-    font-size: 23px;
-    font-family: arial,sans-serif;
+h1 {
+    font-size: 24px;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size:20px;
+    color: #290B0B;
+    
+}
+
+h3{
+color: #290B0B;
+}
+
+p{
+   font-family: arial, sans-serif;
+       color: #290B0B;
 }
 
 ul.a {
@@ -35,11 +48,17 @@ header{
     background-repeat: no-repeat;
     color: #f9e5af;
     font-family: Georgia, Palatino, serif;
-    font-size: 100px;
+    font-size: 62px;
     height: 100px;
     padding: 10px;
 }
-/* --- Nav Bar --- */
+
+
+
+
+
+
+/* --- Nav Bar Style --- */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -47,12 +66,11 @@ nav ul {
   overflow: hidden;
   background-color: #333;
   font-family: arial,sans-serif;
+  font-size: 25px;
 }
-
 nav li {
   float: left;
 }
-
 nav li a {
   display: block;
   color: white;
@@ -60,23 +78,9 @@ nav li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* Change the link color on hover */
 nav li a:hover {
   background-color: #111;
 }
 
-h3{
-color: #290B0B;
-}
 
 
-p{
-   font-family: arial, sans-serif;
-}
-
-h1 {
-    font-size: 24px;
-    font-family: arial, sans-serif;
-    text-align: center;
-}
