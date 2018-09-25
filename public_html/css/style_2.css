@@ -90,7 +90,7 @@ footer{
 
 div{
     background-color: white;
-    height: 470px;
+    height: 620px;
     width: 1250px;
 }
 
@@ -115,5 +115,9 @@ div{
     color: white;
 }
 
+ul{  
+    color: #161c25; 
+    list-style-type: circle;
+}
 
 
