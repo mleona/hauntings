@@ -1,0 +1,8 @@
+732 width
+377 height
+
+Lightness: -60
+Add noise : 20
+Zoom blur: 7
+Vignette: 0.8
+black and white

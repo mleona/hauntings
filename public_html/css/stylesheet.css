@@ -38,6 +38,11 @@ footer {
     font-family: Palatino, "Palatino Linotype", sansserif;
 }
 
+.nav-button span {
+	position: relative;
+	top: 20%;
+}
+
 #button-current {
 	background-color: #92651E;
 }

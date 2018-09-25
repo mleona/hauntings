@@ -14,18 +14,45 @@
 			    width: 50%;
 			    height: 100%;
 			    float: right;
+			    text-decoration: none;
+			    text-align: center;
 			}
 
-			.login_button a {
+			.login_button span {
 			    color: #1B1916;
 			    text-align: center;
-			    text-decoration: none;
-			    font-size: 125%;
+			    font-size: 110%;
 			    font-family: Palatino, "Palatino Linotype", sansserif;
 			}
 
 			.login_button:hover {
 			    background-color: #D3A933;
+			}
+
+			#intro_text {
+				background-color: #ECEDE9;
+				color: #1B1916;
+				font-family: Palatino, "Palatino Linotype", sansserif;
+				font-size: 20px;
+			    border-style: solid;
+			    border-width: 5px;
+			    border-color: #96A495;
+			    margin-right: 25%;
+			    margin-left: 25%;
+			    margin-bottom: 5%;
+			    margin-top: 10%;
+			    padding-bottom: .5vh;
+				padding-top: .5vh;
+				padding-right: .5vw;
+				padding-left: .5vw;
+			}
+
+			.intro_text_link {
+				text-decoration: none;
+			}
+
+			.intro_text_link:hover {
+				color: #D3A933;
 			}
 		</style>
 	</head>
@@ -34,30 +61,29 @@
 		<header>
 			<nav id="header-nav">
 				<a href="index.html"><img src="img/new_logo.png" alt="Simpson Ghost Hunters" id="logo"></a>
-				<a href="about.html"><button class="nav-button"><b>About</b></button></a>
-				<a href="cowles_gym.html"><button class="nav-button"><b>Cowles Gym</b></button></a>
-				<a href="millies.html"><button class="nav-button"><b>Millie's</b></button></a>
-				<a href="mary_berry.html"><button class="nav-button"><b>Mary Berry</b></button></a>
-				<a href="college_hall.html"><button class="nav-button"><b>College Hall</b></button></a>
-				<button class="nav-button" id="button-current"><b>Home</b></button>
+				<a href="about.html" class="nav-button"><span><b>About</b></span></a>
+				<a href="cowles_gym.html" class="nav-button"><span><b>Cowles Gym</b></span></a>
+				<a href="millies.html" class="nav-button"><span><b>Millie's</b></span></a>
+				<a href="mary_berry.html" class="nav-button"><span><b>Mary Berry</b></span></a>
+				<a href="college_hall.html" class="nav-button"><span><b>College Hall</b></span></a>
+				<a href="index.html" class="nav-button" id="button-current"><span><b>Home</b></span></a>
 			</nav>
 
 			<div style="background-color: #96A495; width: 10%; height: 4%; position: fixed; top:8%; left:0%; margin-bottom: 1%;">
-				<button class="login_button"><a href="signup.html"><b>Sign-Up</b></a></button>
-				<button class="login_button"><a href="login.html"><b>Login</b></a></button>
+				<a href="signup.html" class="login_button"><span><b>Sign-Up</b></span></a>
+				<a href="login.html" class="login_button"><span><b>Login</b></span></a>
 			</div>
 		</header>
 
-		<div class="main-img">
-			<img src="img/placeholder.jpg">
-		</div>
-
-		<p class="img-text">
-			<i>Like, what picture should go here?</i>
-		</p>
-
-		<div class="main-text">
-			We are the Simpson Ghost Hunters. We collect documentation of paranormal activity discovered around campus. Then we investigate these reports and upload our findings onto this website. Click on the tabs above to learn about our discoveries.
+		<div id="intro_text">
+			We are the Simpson Ghost Hunters. We collect documentation of paranormal activity discovered around campus. Then we investigate these reports and upload our findings onto this website.<br><br>
+			To get started, click one of the links below, or use the navigation bar at the top.<br>
+			<br>
+			<a href="college_hall.html" class="intro_text_link"><b>College Hall</b></a><br>
+			<a href="mary_berry.html" class="intro_text_link"><b>Mary Berry</b></a><br>
+			<a href="millies.html" class="intro_text_link"><b>Millie's</b></a><br>
+			<a href="cowles_gym.html" class="intro_text_link"><b>Cowles Gym</b></a><br>
+			<a href="about.html" class="intro_text_link"><b>About</b></a><br>
 		</div>
 	    
 		<footer>Copyright Simpson Ghost Hunters 2015 &#169;</footer>
