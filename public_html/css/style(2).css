@@ -3,22 +3,22 @@ body {
 }
 
 header{
-    background-color: #dec0b2;
+    background-color: #A86355;
     background-repeat: no-repeat;
-    color: #414c53;
+    color: White;
     font-family: Georgia, Palatino, serif;
     font-size: 60px;
     height: 75px;
     text-align: center;
     padding: 20px;
 }
-/* --- Nav Bar --- */
+/* --- MENU --- */
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #D8CFC6;
+  background-color: #C18265;
   font-family: arial,sans-serif;
 }
 
@@ -34,22 +34,19 @@ nav li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 nav li a:hover {
-  /* This is a three digit code. Same as #111111 */
   background-color: #111;
 }
+
 
 .otherimg{
     height: 100px;
     width: 100px;
-
 }
-
 
 p{
    font-family: arial, sans-serif;
-   color: #414c53;
+  color: #161c25;
    line-height: 2;
 }
 
@@ -82,16 +79,17 @@ footer{
     font-size: 15px;
     font-family: arial, sans-serif;
     text-align: left;
-    background-color: #dec0b2;
+    background-color: #90A5A7;
     color: white;
     padding: 10px;
+    border-style: solid;
+    border-color: grey;
 }
 
 div{
     background-color: white;
     height: 470px;
     width: 1250px;
-
 }
 
 #softball {
@@ -115,7 +113,5 @@ div{
     color: white;
 }
 
-.list{
-    
-}
+
 
