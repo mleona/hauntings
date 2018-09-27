@@ -2,17 +2,52 @@
 <!--M Leonard-->
 
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Mary Berry</title>
-</head>
-<body style="background-color:grey;">
-<header><h1><img src="img/logo.png" alt="logo" />Mary Berry</h1></header>
-<p>Mary Berry use to be the dorm in which Mildred use to live. Now students have reported seeing her looking out the windows long after closing hours. Professors with offices in Mary Berry report hearing footsteps when no one else is in the building.</p>
-<img src="img/foot.png" alt="Footprints" />
-<nav>
-<p><a href="index.html">GO HOME</a></p>
-</nav>
-<footer>Copyright Simpson Ghost Hunters 2015 &#169;</footer>
-</body>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Mary Berry</title>
+	</head>
+
+	<body style="background-color:grey;">
+		<header><h1><img src="img/logo.png" alt="logo" />Mary Berry</h1></header>
+
+		<p>
+			Mary Berry use to be the dorm in which Mildred use to live. Now students have reported seeing her looking out the windows long after closing hours. Professors with offices in Mary Berry report hearing footsteps when no one else is in the building.
+		</p>
+
+		<img src="img/foot.png" alt="Footprints" />
+
+		<nav>
+			<p><a href="index.html">GO HOME</a></p>
+		</nav>
+
+		<div class="container">
+			<!-- literally everything would go in here, from top of body to bottom. -->
+
+			<div class="row"> <!-- takes up half the row, side by side stuff -->
+				<!-- css uses 12 columns -->
+				<!-- col-6 takes up half the page -->
+				<div class="col-6">
+
+				</div>
+				<div class="col-6">
+
+				</div>
+
+				<!-- To make it adjust for phones: -->
+				<div class="col-12 col-md-6"> <!-- Take up 12 columns, unless the screen is medium sized, then take up 6. -->
+
+				</div>
+				<div class="col-12 col-md-6">
+
+				</div>
+
+				<!-- Make something disappear if screen too small. -->
+				<div class="d-none d-md-block col-2">
+
+				</div>
+			</div>
+		</div>
+
+		<footer>Copyright Simpson Ghost Hunters 2015 &#169;</footer>
+	</body>
 </html>
